@@ -22,7 +22,13 @@ combinerapp - Service3 - A post method is implemented to take the json as input 
 9. I Should have used Hosted DNS name for the eureka server as I have ended up in changing and configuring the public DNS adress of eureka server in all the services(properties) every time I deploy the eureka server.
 
 **OUTPUT**
+**EUREKA**
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/120272973/207129171-ef814cdd-d2a8-4f40-9b33-529fa260168a.png">
 
+**Get Method of service 1**
+<img width="928" alt="image" src="https://user-images.githubusercontent.com/120272973/207133534-43bd478a-d9de-45a0-b7f4-c1e86a02f26b.png">
+
+**Post Method of service 1**
 
 **Task2**
 ==========
