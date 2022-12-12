@@ -23,15 +23,19 @@ combinerapp - Service3 - A post method is implemented to take the json as input 
 
 
 **EUREKA**
+
 <img width="927" alt="image" src="https://user-images.githubusercontent.com/120272973/207142477-e85fff1d-b09e-4298-8b10-fdf315d5dccf.png">
 
 **Get Method of service 1**
+
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/120272973/207142843-d82191c5-f65a-4d58-abee-6dc1521e1e2d.png">
 
 **Post Method of service 1**
+
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/120272973/207142723-cccb6e2a-d98d-45d7-a160-e419b0a16d48.png">
 
 **Zipkin Server**
+
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/120272973/207142380-508e2200-356e-43d0-80db-a635177e4aa6.png">
 
 **Task2**
@@ -54,12 +58,16 @@ Note : Have faced issues in using lombok(Thought of resoving later), and ended u
 
 
 **Custom Annotation Loggers**
+
 2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : Name of the methos findByUserId
 2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : {
   "id": 1
 }
 
+
+
 **Below is the response downloaded from swagger ui**
+
 [
   {
     "Name": "Warrior",
