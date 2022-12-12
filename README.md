@@ -21,6 +21,8 @@ combinerapp - Service3 - A post method is implemented to take the json as input 
 8. Have used public DNS adress for accessing the service1 from swagger ui to execute the get and post calls.
 9. I Should have used Hosted DNS name for the eureka server as I have ended up in changing and configuring the public DNS adress of eureka server in all the services(properties) every time I deploy the eureka server.
 
+**OUTPUT**
+
 
 **Task2**
 ==========
@@ -39,3 +41,62 @@ centimeapp - to get the role data based on ID and also to get the whole data in 
 5. Have implemeted custom @LogMethodParam annotation to print the parameters passed to the methods.
 Note : Have faced issues in using lombok(Thought of resoving later), and ended up in committing annotations as well as setters/getters.
 
+
+**Below is the response downloaded from swagger ui**
+[
+  {
+    "Name": "Warrior",
+    "Sub Classes": [
+      {
+        "Name": "Fighter"
+      },
+      {
+        "Name": "Paladin"
+      },
+      {
+        "Name": "Ranger"
+      }
+    ]
+  },
+  {
+    "Name": "Wizard",
+    "Sub Classes": [
+      {
+        "Name": "Mage"
+      },
+      {
+        "Name": "Specialist wizard"
+      }
+    ]
+  },
+  {
+    "Name": "Priest",
+    "Sub Classes": [
+      {
+        "Name": "Cleric"
+      },
+      {
+        "Name": "Druid"
+      },
+      {
+        "Name": "Priest of specific mythos"
+      }
+    ]
+  },
+  {
+    "Name": "Rogue",
+    "Sub Classes": [
+      {
+        "Name": "Thief",
+        "Sub Classes": [
+          {
+            "Name": "Assassin"
+          }
+        ]
+      },
+      {
+        "Name": "Bard"
+      }
+    ]
+  }
+]
