@@ -21,14 +21,18 @@ combinerapp - Service3 - A post method is implemented to take the json as input 
 8. Have used public DNS adress for accessing the service1 from swagger ui to execute the get and post calls.
 9. I Should have used Hosted DNS name for the eureka server as I have ended up in changing and configuring the public DNS adress of eureka server in all the services(properties) every time I deploy the eureka server.
 
-**OUTPUT**
+
 **EUREKA**
-<img width="955" alt="image" src="https://user-images.githubusercontent.com/120272973/207129171-ef814cdd-d2a8-4f40-9b33-529fa260168a.png">
+<img width="927" alt="image" src="https://user-images.githubusercontent.com/120272973/207142477-e85fff1d-b09e-4298-8b10-fdf315d5dccf.png">
 
 **Get Method of service 1**
-<img width="928" alt="image" src="https://user-images.githubusercontent.com/120272973/207133534-43bd478a-d9de-45a0-b7f4-c1e86a02f26b.png">
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/120272973/207142843-d82191c5-f65a-4d58-abee-6dc1521e1e2d.png">
 
 **Post Method of service 1**
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/120272973/207142723-cccb6e2a-d98d-45d7-a160-e419b0a16d48.png">
+
+**Zipkin Server**
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/120272973/207142380-508e2200-356e-43d0-80db-a635177e4aa6.png">
 
 **Task2**
 ==========
@@ -47,6 +51,13 @@ centimeapp - to get the role data based on ID and also to get the whole data in 
 5. Have implemeted custom @LogMethodParam annotation to print the parameters passed to the methods.
 Note : Have faced issues in using lombok(Thought of resoving later), and ended up in committing annotations as well as setters/getters.
 
+
+
+**Custom Annotation Loggers**
+2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : Name of the methos findByUserId
+2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : {
+  "id": 1
+}
 
 **Below is the response downloaded from swagger ui**
 [
@@ -114,8 +125,3 @@ Note : Have faced issues in using lombok(Thought of resoving later), and ended u
 <img width="923" alt="image" src="https://user-images.githubusercontent.com/120272973/207113612-68ac640f-7392-4ec8-b865-4f7a1e87554e.png">
 
 
-**Custom Annotation Loggers**
-2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : Name of the methos findByUserId
-2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : {
-  "id": 1
-}
