@@ -100,3 +100,8 @@ Note : Have faced issues in using lombok(Thought of resoving later), and ended u
     ]
   }
 ]
+
+
+
+<img width="922" alt="image" src="https://user-images.githubusercontent.com/120272973/207113381-077dff43-297b-433f-af2f-26780b97facb.png">
+
