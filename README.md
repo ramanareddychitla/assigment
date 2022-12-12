@@ -106,3 +106,10 @@ Note : Have faced issues in using lombok(Thought of resoving later), and ended u
 <img width="922" alt="image" src="https://user-images.githubusercontent.com/120272973/207113381-077dff43-297b-433f-af2f-26780b97facb.png">
 
 <img width="923" alt="image" src="https://user-images.githubusercontent.com/120272973/207113612-68ac640f-7392-4ec8-b865-4f7a1e87554e.png">
+
+
+**Custom Annotation Loggers**
+2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : Name of the methos findByUserId
+2022-12-12 23:28:08.070  INFO 28084 --- [nio-9004-exec-4] c.c.custom.annotation.MethodParamLogger  : {
+  "id": 1
+}
